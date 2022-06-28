@@ -10,6 +10,8 @@ Para usarlos se requiere como dependencia _numpy_ y _pandas_.
 
 Se supone que los archivos con los datos originales ya fueron obtenidos desde el coordinador. Si aún no los ha conseguido, puede descargarlos desde la página del coordinador, en la sección _Mercado_, o pedirlos por ley de transparencia.
 
+Algunos archivos podrían venir en formatos de bases de datos. Para que sean procesador por estos scripts deben transformarse a formato `csv`, por ejemplo utilizando la función _dump_.
+
 ## Instrucciones de uso
 
 1. Colocar los archivos de entrada en un directorio, con el formato de nombre siguiente: `balance_AAMM.csv`, con AA el año y MM el mes, para los archivos SING, y `valorizado_AAMM.csv` para los provenientes del SIC o actuales. Por ejemplo, el directorio `entrada` podría tener los siguientes archivos:
